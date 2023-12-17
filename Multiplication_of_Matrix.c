@@ -72,7 +72,7 @@ void Multiplication_of_matrix(int rows1, int col1, int row2,int col2, int array1
 		for(int j=0;j<col2;++j)
 		{
 		int container=0;
-		     for(int k=0; k<row2;++k)
+		     for(int k=0; k<col1;++k)
 		     {
 		     	
 		     	container+=(array1[i][k])*(array2[k][j]);
